@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+/* barra de navegacion */
+.nav {
+    height: 80px;
+    background-color:rgb(149, 186, 253);
+    color: #fff;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.flex-containerNav, .nav-links{
+    display: flex;
+    align-items: center;
+}
+.flex-containerNav{
+    width: 1000px;
+    justify-content: space-between;
+    
+}
+ul {
+    list-style: none;
+}
+.nav-links li {
+    margin-left: 50px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-title {
+    margin-right: 100px;
+}
+/* barra ciudad tipo de temperatura */
+.ciudadContain {
+    display: flex;
+    justify-content: center;
+}
+.flex-containerCiudad{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-bottom: 20px;
+    border-bottom: 3px black solid;
+}
+.showTemperature {
+    display: flex;
+    align-items: center;
+}
+#gradosop {
+    width:50px;
+    height: 30px;
+    margin-left: 10px;
+}
+/* targetas */
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.flex-containerTargetas{
+    display: flex;
+    width: 1020px;
+    justify-content: space-around;
+    
+}
+#ultima {
+    margin-right: 0px;
+}
+.targeta {
+    background-color: gainsboro;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+.temperature {
+    display: flex;  
+}
+.maxima {
+    color: red;
+}
+.minima {
+    color: blue;
+    margin-left: 50px;
+}
+.targeta h3, p {
+    margin-bottom: 30px;
+    font-size: 25px;
+
+}
+.targeta p{
+    margin-top: 30px;
+}
+.temp {
+    font-size: 28px;
+}
+/* alerta cokies*/
+.containalert {
+    display: flex;
+    justify-content: center;
+
+}
+.alertacookie {
+    border: 3px black solid;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    position: fixed;
+    bottom: 10px;
+
+}
+.alertacookie img {
+    width: 60px;
+}
+.alertacookie h3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.alertacookie p, a{
+    font-size: 15px;
+}
+.imgcontain {
+    display: flex;
+    align-items: center;
+}
+.imgcontain, .contenidoalert, .btnalert {
+    padding: 0px 20px;
+}
+button {
+    background-color:cornflowerblue ;
+    color: black;
+    width: 100px;
+    height: 30px;
+    box-shadow: 5px 5px 0px black;
+    cursor: pointer;
+    
+}
